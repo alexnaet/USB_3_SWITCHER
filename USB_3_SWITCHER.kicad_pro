@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -272,6 +272,56 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "POWER_1V1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 255, 255)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "name": "POWER_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 255)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "name": "POWER_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 255, 0)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "name": "POWER_GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 10
+      },
+      {
+        "name": "USB_DP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 0, 132)"
+      },
+      {
+        "name": "USB_SSRX",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 132, 132)"
+      },
+      {
+        "name": "USB_SSTX",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(132, 0, 132)"
       }
     ],
     "meta": {
@@ -279,7 +329,40 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_SSRX",
+        "pattern": "*SSRX*"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "*_D_P*"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "*_D_N*"
+      },
+      {
+        "netclass": "POWER_3V3",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "POWER_5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "POWER_1V1",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "POWER_GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "USB_SSTX",
+        "pattern": "*SSTX*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -430,8 +513,32 @@
       "UPSTREAM_CON"
     ],
     [
+      "d10018df-95fc-480c-88d9-89d40f47512d",
+      "UPSTREAM_CON1"
+    ],
+    [
+      "d0a02d27-ba8e-47f5-91ea-312e7e888d13",
+      "DIRECTION_SWITCH"
+    ],
+    [
       "6197ed9e-2991-4346-907f-e62c59de54b3",
       "DOWNSTREAM_CONNECTORS"
+    ],
+    [
+      "54debad2-dec1-4276-a9a1-37e2da5405e0",
+      "DOWNSTREAM_CONNECTORS1"
+    ],
+    [
+      "8e73072d-d556-4825-b8b8-550f6bfd1414",
+      "DOWNSTREAM_CONNECTORS2"
+    ],
+    [
+      "5e5ce42f-deea-479a-a877-e9de670a3e82",
+      "DOWNSTREAM_CONNECTORS3"
+    ],
+    [
+      "727687ad-08f4-4d44-9d98-36b0cbf3889d",
+      "EXTENSION_HEADER_DEBUG"
     ]
   ],
   "text_variables": {}
