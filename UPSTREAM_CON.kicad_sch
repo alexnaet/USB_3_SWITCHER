@@ -3968,7 +3968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00_Resistor:Res_0402"
 			(at 145.542 55.88 90)
 			(effects
 				(font
@@ -4108,7 +4108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00_Capacitor:Cap_0402"
 			(at 177.8 104.14 0)
 			(effects
 				(font
@@ -4179,7 +4179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00_Capacitor:Cap_0402"
 			(at 171.45 101.6 0)
 			(effects
 				(font
@@ -4434,7 +4434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00_Resistor:Res_0402"
 			(at 109.982 54.61 90)
 			(effects
 				(font
@@ -4574,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00_Capacitor:Cap_0402"
 			(at 171.45 93.98 0)
 			(effects
 				(font
@@ -4648,7 +4648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "00_Capacitor:Cap_0603"
 			(at 88.5952 63.5 0)
 			(effects
 				(font
@@ -4929,7 +4929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "00_Capacitor:Cap_0603"
 			(at 100.0252 63.5 0)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00_Capacitor:Cap_0402"
 			(at 177.8 96.52 0)
 			(effects
 				(font
@@ -5158,7 +5158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00_Resistor:Res_0402"
 			(at 109.982 64.77 90)
 			(effects
 				(font
@@ -5232,7 +5232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "00_Capacitor:Cap_0603"
 			(at 164.7952 50.8 0)
 			(effects
 				(font
@@ -5303,7 +5303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_WE_CFPX-180-4Pin_3.2x2.5mm"
+		(property "Footprint" ""
 			(at 69.85 88.9 0)
 			(effects
 				(font
