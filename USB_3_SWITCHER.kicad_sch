@@ -53,7 +53,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 133.35)
+		(at 134.62 133.35)
 		(size 41.91 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69,7 +69,7 @@
 		)
 		(uuid "51eaf119-28f7-4fb3-b499-06b3f53ecd18")
 		(property "Sheetname" "HS_MUX"
-			(at 135.89 132.6384 0)
+			(at 134.62 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,7 +78,7 @@
 			)
 		)
 		(property "Sheetfile" "HS_MUX.kicad_sch"
-			(at 135.89 193.6246 0)
+			(at 134.62 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 	)
 	(sheet
 		(at 320.04 99.06)
-		(size 30.48 25.4)
+		(size 30.48 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -120,7 +120,7 @@
 			)
 		)
 		(property "Sheetfile" "DOWNSTREAM_CONNECOTRS.kicad_sch"
-			(at 320.04 125.0446 0)
+			(at 320.04 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,8 +137,8 @@
 		)
 	)
 	(sheet
-		(at 68.58 133.35)
-		(size 34.29 25.4)
+		(at 68.58 129.54)
+		(size 34.29 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -153,7 +153,7 @@
 		)
 		(uuid "c2937931-474a-4fd2-9f5c-ad5f88abb5b8")
 		(property "Sheetname" "UPSTREAM_CON"
-			(at 68.58 132.6384 0)
+			(at 68.58 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,6 +168,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_UP_D_P" bidirectional
+			(at 102.87 135.89 0)
+			(uuid "aedec4dd-a852-4fab-b2d3-9d4967e71170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP_SSTX_C_N" input
+			(at 102.87 144.78 0)
+			(uuid "779be8cb-5dc8-4811-9059-e7ba45888413")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP_SSRX_C_P" output
+			(at 102.87 148.59 0)
+			(uuid "350fe559-2f54-43a4-a511-7184bcda1a13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP_SSTX_C_P" input
+			(at 102.87 142.24 0)
+			(uuid "55ebb19a-e3d0-4573-83b5-0fe3484bc7e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP_SSRX_C_N" output
+			(at 102.87 151.13 0)
+			(uuid "dfda6b4b-750a-4450-a6bd-cff795187407")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP_D_N" bidirectional
+			(at 102.87 138.43 0)
+			(uuid "b97e7e8b-b70f-4ecb-a3a0-aa469d1dad36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP_PORT_POWER_ON" output
+			(at 102.87 154.94 0)
+			(uuid "c907f930-bc22-4f16-bca8-4500826d734a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
