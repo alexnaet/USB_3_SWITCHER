@@ -10,12 +10,6 @@
 		(rev "Rev 1")
 	)
 	(lib_symbols)
-	(junction
-		(at 130.81 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "535a262b-13e6-44f1-a45f-648023b17b03")
-	)
 	(wire
 		(pts
 			(xy 267.97 184.15) (xy 290.83 184.15)
@@ -235,16 +229,6 @@
 			(type default)
 		)
 		(uuid "5e7c5c72-9f04-4bbb-acea-ca22e3dc6781")
-	)
-	(wire
-		(pts
-			(xy 130.81 152.4) (xy 130.81 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eb9ded4-05c4-4088-941c-8aa8b9af545d")
 	)
 	(wire
 		(pts
@@ -527,8 +511,8 @@
 		(uuid "f8c35b5d-c80a-447a-809e-c930bd8190a3")
 	)
 	(sheet
-		(at 207.01 101.6)
-		(size 60.96 130.81)
+		(at 207.01 105.41)
+		(size 60.96 121.92)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -543,7 +527,7 @@
 		)
 		(uuid "17a678b8-2805-4685-8ec6-df00bd310e8b")
 		(property "Sheetname" "USB_HUB"
-			(at 207.01 100.8884 0)
+			(at 207.01 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +536,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_HUB.kicad_sch"
-			(at 207.01 232.9946 0)
+			(at 207.01 227.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +545,7 @@
 			)
 		)
 		(pin "SMB_SDA" bidirectional
-			(at 207.01 213.36 180)
+			(at 207.01 219.71 180)
 			(uuid "5a04fe23-8ec8-4ab8-9f98-5bf4f00bda7b")
 			(effects
 				(font
@@ -571,7 +555,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 207.01 107.95 180)
+			(at 207.01 114.3 180)
 			(uuid "8bf19e72-8b73-4128-a9c3-f295f23cf515")
 			(effects
 				(font
@@ -601,7 +585,7 @@
 			)
 		)
 		(pin "SMB_SCL" input
-			(at 207.01 215.9 180)
+			(at 207.01 223.52 180)
 			(uuid "068eea76-34d3-43f5-bf71-7f715324fd5f")
 			(effects
 				(font
@@ -1587,8 +1571,8 @@
 		)
 	)
 	(sheet
-		(at 151.13 207.01)
-		(size 27.94 25.4)
+		(at 130.81 201.93)
+		(size 48.26 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1603,7 +1587,7 @@
 		)
 		(uuid "727687ad-08f4-4d44-9d98-36b0cbf3889d")
 		(property "Sheetname" "EXTENSION_HEADER_DEBUG"
-			(at 151.13 206.2984 0)
+			(at 130.81 201.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1596,7 @@
 			)
 		)
 		(property "Sheetfile" "EXTENSION_HEADER_DEBUG.kicad_sch"
-			(at 151.13 232.9946 0)
+			(at 130.81 227.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1736,7 @@
 	)
 	(sheet
 		(at 53.34 133.35)
-		(size 34.29 27.94)
+		(size 34.29 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1776,7 +1760,7 @@
 			)
 		)
 		(property "Sheetfile" "UPSTREAM_CON.kicad_sch"
-			(at 53.34 161.8746 0)
+			(at 53.34 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1769,7 @@
 			)
 		)
 		(pin "USB_UP_PORT_POWER_ON" output
-			(at 87.63 157.48 0)
+			(at 87.63 156.21 0)
 			(uuid "c907f930-bc22-4f16-bca8-4500826d734a")
 			(effects
 				(font
@@ -1863,8 +1847,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 60.96)
-		(size 63.5 53.34)
+		(at 130.81 68.58)
+		(size 48.26 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1879,7 +1863,7 @@
 		)
 		(uuid "c5621e67-4cd5-4b05-bb18-b37bc67d082e")
 		(property "Sheetname" "POWER_SUPPLY"
-			(at 114.3 60.2484 0)
+			(at 130.81 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1872,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_SUPPLY.kicad_sch"
-			(at 114.3 114.8846 0)
+			(at 130.81 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +1889,7 @@
 		)
 	)
 	(sheet
-		(at 212.09 43.18)
+		(at 207.01 68.58)
 		(size 41.91 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1921,7 +1905,7 @@
 		)
 		(uuid "d0a02d27-ba8e-47f5-91ea-312e7e888d13")
 		(property "Sheetname" "DIRECTION_SWITCH"
-			(at 212.09 42.4684 0)
+			(at 207.01 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +1914,7 @@
 			)
 		)
 		(property "Sheetfile" "DIRECTION_SWITCH.kicad_sch"
-			(at 212.09 69.1646 0)
+			(at 207.01 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1932,7 @@
 	)
 	(sheet
 		(at 53.34 166.37)
-		(size 34.29 27.94)
+		(size 34.29 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1972,7 +1956,7 @@
 			)
 		)
 		(property "Sheetfile" "UPSTREAM_CON.kicad_sch"
-			(at 53.34 194.8946 0)
+			(at 53.34 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1965,7 @@
 			)
 		)
 		(pin "USB_UP_PORT_POWER_ON" output
-			(at 87.63 190.5 0)
+			(at 87.63 189.23 0)
 			(uuid "0f5e93d4-0bdd-4b02-b29d-b5c1e2ebce18")
 			(effects
 				(font

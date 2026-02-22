@@ -9,7 +9,7 @@
 		(rev "Rev 1")
 	)
 	(lib_symbols
-		(symbol "Connector:USB3_A"
+		(symbol "00_Connectors_USB:Wuerth_USB3_Receptible_692122030100"
 			(pin_names
 				(offset 1.016)
 			)
@@ -17,42 +17,34 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 15.24 0)
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify bottom)
 				)
 			)
-			(property "Value" "USB3_A"
-				(at 10.16 15.24 0)
+			(property "Value" "Wuerth_USB3_Receptible_692122030100"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 3.81 2.54 0)
+			(property "Footprint" "00_Connector:Wuerth_USB3A_receptible_692122030100"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB 3.0 A connector"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,41 +62,385 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB3*"
+			(property "DigiKey_Part_Number" "732-3150-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "USB3_A_0_0"
-				(rectangle
-					(start -9.144 8.636)
-					(end -5.08 -3.81)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/692122030100/Wurth+Electronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "WR-COM_USB 3.0_Type A_Horizontal_SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Wurth Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 5.842 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/692122030100/Wurth+Electronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "692122030100"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "Wuerth_USB3_Receptible_692122030100_0_0"
+				(polyline
+					(pts
+						(xy -10.16 12.065) (xy 9.525 12.065)
+					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -7.874 7.366)
-					(end -6.604 -2.286)
+				(polyline
+					(pts
+						(xy -10.16 -12.065) (xy -10.16 12.065)
+					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 12.065) (xy 9.525 -12.065)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -12.065) (xy -10.16 -12.065)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 12.7) (xy -10.16 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 12.7) (xy 10.16 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy -10.16 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Shield"
+					(at 12.14 -2.5 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "STDA_SSRX-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "STDA_SSRX+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "GND_DRAIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "STDA_SSTX-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "STDA_SSTX+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -12.7 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -12.7 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Wuerth_USB3_Receptible_692122030100_1_1"
+				(rectangle
+					(start 2.413 6.096)
+					(end 1.143 7.366)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -6.35 5.334)
-					(end -6.096 4.572)
+				(polyline
+					(pts
+						(xy 4.318 2.286) (xy 1.778 4.826) (xy 1.778 6.096)
+					)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -113,9 +449,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -6.35 3.556)
-					(end -6.096 2.794)
+				(polyline
+					(pts
+						(xy 4.318 1.016) (xy 6.858 3.556) (xy 6.858 4.826)
+					)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -124,9 +461,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -6.35 1.778)
-					(end -6.096 1.016)
+				(polyline
+					(pts
+						(xy 4.318 -1.524) (xy 4.318 8.636)
+					)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -135,192 +473,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -6.35 0)
-					(end -6.096 -0.762)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.794 -15.24)
-					(end -2.286 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -15.24)
-					(end 0.254 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 5.334)
-					(end 9.144 4.826)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB3_A_0_1"
-				(rectangle
-					(start -10.16 13.97)
-					(end 10.16 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "USB3_A_1_1"
 				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
+					(center 4.318 -1.524)
 					(radius 1.27)
 					(stroke
 						(width 0)
@@ -330,9 +484,10 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
+				(polyline
+					(pts
+						(xy 5.588 8.636) (xy 4.318 11.176) (xy 3.048 8.636) (xy 5.588 8.636)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -341,184 +496,15 @@
 						(type outline)
 					)
 				)
-				(pin passive line
-					(at -5.08 -17.78 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(circle
+					(center 6.858 5.461)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 90)
-					(length 2.54)
-					(name "DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SSRX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "SSRX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "SSTX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "SSTX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -3252,12 +3238,6 @@
 		(uuid "84ee871a-d1a8-4e8a-8730-53109e2a2466")
 	)
 	(junction
-		(at 217.17 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4621558-b986-4113-aedd-50f8ab0ebdc4")
-	)
-	(junction
 		(at 175.26 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3288,16 +3268,6 @@
 			(type default)
 		)
 		(uuid "061970f5-1db7-4d9a-b02c-467fbd6631ef")
-	)
-	(wire
-		(pts
-			(xy 217.17 100.33) (xy 217.17 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e719410-dfb3-4fa8-ac38-1cd2066f4c54")
 	)
 	(wire
 		(pts
@@ -3441,16 +3411,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 100.33) (xy 215.9 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eef78e3-5319-474b-a2d0-a123baa5667e")
-	)
-	(wire
-		(pts
 			(xy 158.75 59.69) (xy 158.75 58.42)
 		)
 		(stroke
@@ -3461,33 +3421,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 101.6) (xy 219.71 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48ce2ee8-0a0a-4599-ac24-0329533e0b9f")
-	)
-	(wire
-		(pts
-			(xy 190.5 49.53) (xy 190.5 72.39)
+			(xy 194.31 49.53) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50f5d4f3-92c1-407a-9479-e742966bfecc")
-	)
-	(wire
-		(pts
-			(xy 215.9 101.6) (xy 217.17 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b29275-7208-40fb-a066-a673480cd01b")
 	)
 	(wire
 		(pts
@@ -3541,7 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 72.39) (xy 190.5 72.39)
+			(xy 201.93 74.93) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3661,6 +3601,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 97.79) (xy 201.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e387b8-d166-4256-ae1c-50249b33c747")
+	)
+	(wire
+		(pts
 			(xy 71.12 33.02) (xy 71.12 44.45)
 		)
 		(stroke
@@ -3688,6 +3638,16 @@
 			(type default)
 		)
 		(uuid "aebb6a83-16b4-4a01-9942-ccc581a8c5cb")
+	)
+	(wire
+		(pts
+			(xy 200.66 82.55) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14303c0-f885-42f7-bbf2-666ee13cad9c")
 	)
 	(wire
 		(pts
@@ -3738,16 +3698,6 @@
 			(type default)
 		)
 		(uuid "bc90f090-1f0f-482f-bf80-35c0b021b6cb")
-	)
-	(wire
-		(pts
-			(xy 217.17 101.6) (xy 217.17 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34d8d23-8e38-431c-bbc5-a205727f6a1a")
 	)
 	(wire
 		(pts
@@ -3811,6 +3761,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 90.17) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9e80b3-ddf0-4625-a779-b7d35f1aa2f5")
+	)
+	(wire
+		(pts
 			(xy 137.16 161.29) (xy 137.16 160.02)
 		)
 		(stroke
@@ -3851,23 +3811,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 49.53) (xy 175.26 49.53)
+			(xy 194.31 49.53) (xy 175.26 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee757dc1-7709-4900-b4bd-b29f4d71a554")
-	)
-	(wire
-		(pts
-			(xy 217.17 101.6) (xy 218.44 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c8b0e0-c683-4c17-8c62-50b2d568016b")
 	)
 	(label "USB_DS_D_P"
 		(at 166.37 129.54 180)
@@ -3890,7 +3840,7 @@
 		(uuid "16cf4cd6-8b56-4fb5-aa19-e273b56f8e4b")
 	)
 	(label "USB_DS_SSTX_N"
-		(at 180.34 92.71 0)
+		(at 175.26 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3920,7 +3870,7 @@
 		(uuid "254c92a2-45f5-44e3-84e4-73c9a06c609c")
 	)
 	(label "USB_DS_SSRX_P"
-		(at 180.34 87.63 0)
+		(at 175.26 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3940,7 +3890,7 @@
 		(uuid "3e781c17-59ad-4fb8-9d93-6b8049c83ada")
 	)
 	(label "USB_DS_SSRX_N"
-		(at 180.34 85.09 0)
+		(at 175.26 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3970,7 +3920,7 @@
 		(uuid "8b562ec8-8d52-4650-ae67-fd287b4e1214")
 	)
 	(label "USB_DS_D_P"
-		(at 180.34 80.01 0)
+		(at 175.26 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4000,7 +3950,7 @@
 		(uuid "aba22757-e28e-4f7d-9d64-e945e292c3b1")
 	)
 	(label "USB_DS_D_N"
-		(at 180.34 77.47 0)
+		(at 175.26 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4040,7 +3990,7 @@
 		(uuid "e0e1afb8-eb56-4e0d-8513-fc1be1dee8af")
 	)
 	(label "USB_DS_SSTX_P"
-		(at 180.34 95.25 0)
+		(at 175.26 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4157,7 +4107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0069c053-66bd-4532-9e7d-1995e1609463")
-		(property "Reference" "C12"
+		(property "Reference" "C65"
 			(at 179.07 53.3399 0)
 			(effects
 				(font
@@ -4211,19 +4161,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "C70")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "C84")
+					(reference "C86")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "C12")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "C77")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -4239,7 +4189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0117997b-1858-4ac8-805c-91871ae387b8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR092"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -4289,19 +4239,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR092")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0119")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR027")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0107")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "067dce0e-8b5b-4a36-8ce3-77abec21da45")
-		(property "Reference" "U11"
+		(property "Reference" "U13"
 			(at 137.16 116.84 90)
 			(effects
 				(font
@@ -4408,19 +4358,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "U14")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "U18")
+					(reference "U19")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "U11")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "U16")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -4435,7 +4385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17c1d3f7-da91-40d4-b912-5fc427a30c4c")
-		(property "Reference" "C9"
+		(property "Reference" "C60"
 			(at 80.01 91.186 90)
 			(effects
 				(font
@@ -4487,19 +4437,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "C65")
+					(reference "C67")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "C79")
+					(reference "C81")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "C9")
+					(reference "C60")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "C72")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -4514,7 +4464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2056af76-7817-417e-840c-b8aec982bef7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR094"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -4564,19 +4514,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR095")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0121")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR017")
+					(reference "#PWR094")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0109")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -4591,7 +4541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "223fcfd1-203d-454b-8780-97248d01ecbe")
-		(property "Reference" "C10"
+		(property "Reference" "C62"
 			(at 86.36 93.726 90)
 			(effects
 				(font
@@ -4643,19 +4593,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "C67")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "C81")
+					(reference "C83")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "C10")
+					(reference "C62")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "C74")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -4663,15 +4613,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 102.87 0)
+		(at 200.66 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2815450a-b32d-4280-b334-e47a9991c063")
-		(property "Reference" "#PWR012"
-			(at 217.17 109.22 0)
+		(property "Reference" "#PWR0100"
+			(at 194.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 106.68 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 102.87 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 102.87 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 102.87 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,19 +4670,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR0103")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0127")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR012")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0115")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -4747,7 +4697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e7b9306-4fb8-4da0-9c09-e7e91d4ac67c")
-		(property "Reference" "C3"
+		(property "Reference" "C59"
 			(at 80.01 83.566 90)
 			(effects
 				(font
@@ -4799,19 +4749,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "C64")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "C78")
+					(reference "C80")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "C3")
+					(reference "C59")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "C71")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -4826,7 +4776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f2ff9f4-02d5-4f28-a83e-8926e898e333")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR093"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -4876,19 +4826,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR093")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0120")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR026")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0108")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -4903,7 +4853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41d0be74-1979-4245-9d5b-a040725cc97b")
-		(property "Reference" "C13"
+		(property "Reference" "C63"
 			(at 149.86 36.8299 0)
 			(effects
 				(font
@@ -4957,19 +4907,198 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "C68")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "C82")
+					(reference "C84")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "C13")
+					(reference "C63")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "C75")
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_Connectors_USB:Wuerth_USB3_Receptible_692122030100")
+		(at 217.17 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "428cc0a7-ca90-468b-a7d0-05d8c9c71231")
+		(property "Reference" "J4"
+			(at 217.17 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wuerth_USB3_Receptible_692122030100"
+			(at 200.406 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_Connector:Wuerth_USB3A_receptible_692122030100"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-3150-1-ND"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/692122030100/Wurth+Electronics/view-part/?ref=snap"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "WR-COM_USB 3.0_Type A_Horizontal_SMT"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Electronics"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 223.012 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/692122030100/Wurth+Electronics/view-part/?ref=eda"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "692122030100"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "af055163-ee10-4b24-ada3-8944039a681a")
+		)
+		(pin "6"
+			(uuid "587148aa-8e72-4ca8-aaf9-cdd0218dac11")
+		)
+		(pin "7"
+			(uuid "36ca1da9-3011-4f0d-b29d-c424cecefe1d")
+		)
+		(pin "S2"
+			(uuid "6d927883-93f3-4545-bef5-6ced2448285c")
+		)
+		(pin "9"
+			(uuid "b9112ecc-0586-44a5-bc45-df8ed4241572")
+		)
+		(pin "3"
+			(uuid "d78529c6-5498-4376-999f-90c996dd3475")
+		)
+		(pin "5"
+			(uuid "a3326d78-0426-488e-a503-7a1ab0891f3c")
+		)
+		(pin "8"
+			(uuid "d33cb1e0-3671-4edc-8879-a855d9f514c3")
+		)
+		(pin "1"
+			(uuid "ffaa1ed1-7be2-497e-b120-a3dbb9736d2f")
+		)
+		(pin "2"
+			(uuid "a6e9b61f-437e-4f94-a296-aab180104dee")
+		)
+		(pin "S1"
+			(uuid "7e14c06c-e3df-4c74-b027-d1c8ffd0d791")
+		)
+		(instances
+			(project ""
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4985,7 +5114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "472f6944-c139-4366-b6aa-6777091a07ca")
-		(property "Reference" "R3"
+		(property "Reference" "R40"
 			(at 119.38 53.3399 0)
 			(effects
 				(font
@@ -5039,19 +5168,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "R42")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "R52")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "R3")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "R47")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5066,7 +5195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48d291aa-57b0-450a-899d-abd456da8a9b")
-		(property "Reference" "C4"
+		(property "Reference" "C61"
 			(at 86.36 86.106 90)
 			(effects
 				(font
@@ -5118,19 +5247,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "C66")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "C80")
+					(reference "C82")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "C4")
+					(reference "C61")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "C73")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -5145,7 +5274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56a0556e-8122-405f-87b4-35da0607ef2d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR099"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -5195,19 +5324,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR0102")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0126")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR025")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0114")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -5223,7 +5352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "753bfb12-9c3b-4124-9e3e-ec27c7471998")
-		(property "Reference" "R6"
+		(property "Reference" "R39"
 			(at 119.38 27.9399 0)
 			(effects
 				(font
@@ -5277,19 +5406,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "R41")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "R51")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "R6")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "R46")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5304,7 +5433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "824885e6-363e-4e06-a6df-e9878c179c5f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR095"
 			(at 137.16 167.64 0)
 			(effects
 				(font
@@ -5354,19 +5483,96 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR097")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0122")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR021")
+					(reference "#PWR095")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0110")
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f574c93-ea24-4f22-9e25-b484dc1a8a42")
+		(property "Reference" "#PWR0102"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6857149-e97b-4f7a-b3a0-1fc84d1befbb")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -5455,11 +5661,11 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "U13")
+					(reference "U14")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "U17")
+					(reference "U18")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
@@ -5467,7 +5673,7 @@
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "U15")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -5482,7 +5688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a715b9fc-06fb-4a1c-90ed-10bd8b7a26b2")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR090"
 			(at 97.79 27.94 0)
 			(effects
 				(font
@@ -5532,19 +5738,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR089")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0117")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR047")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0105")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5560,7 +5766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8518bb9-920e-4b47-92e9-9898fa2d813b")
-		(property "Reference" "R4"
+		(property "Reference" "R36"
 			(at 73.66 27.9399 0)
 			(effects
 				(font
@@ -5614,19 +5820,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "R38")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "R48")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "R4")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "R43")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5642,7 +5848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b92e5229-d1be-400b-af72-9bd95c4a0553")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR097"
 			(at 146.05 49.53 0)
 			(effects
 				(font
@@ -5692,19 +5898,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR0100")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0124")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR030")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0112")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -5720,7 +5926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ae5e7b-6e88-4d6a-b9bb-5be1b2bef6e3")
-		(property "Reference" "R7"
+		(property "Reference" "R38"
 			(at 110.49 27.9399 0)
 			(effects
 				(font
@@ -5774,19 +5980,96 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "R40")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "R50")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "R7")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "R45")
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c217b379-d5a7-4018-9dbd-e6ea4226d243")
+		(property "Reference" "#PWR0101"
+			(at 194.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dac439d-a82c-47e3-b94c-c381c997c2b9")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -5802,7 +6085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c217c08b-1b05-433c-a545-ae663d782fc9")
-		(property "Reference" "R11"
+		(property "Reference" "R37"
 			(at 100.33 27.9399 0)
 			(effects
 				(font
@@ -5856,19 +6139,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "R39")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "R49")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "R11")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "R44")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5884,7 +6167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caf0d4d6-54d3-424f-a73c-6744dd10e08b")
-		(property "Reference" "C11"
+		(property "Reference" "C64"
 			(at 154.94 53.3399 0)
 			(effects
 				(font
@@ -5938,19 +6221,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "C69")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "C83")
+					(reference "C85")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "C11")
+					(reference "C64")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "C76")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -5965,7 +6248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb97f606-9461-4263-ae3f-e29f7b744f95")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR089"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -6015,19 +6298,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR05")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0116")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR029")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0104")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6123,7 +6406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d62aadee-33a8-471c-bad2-8feab4b3a205")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR096"
 			(at 146.05 35.56 0)
 			(effects
 				(font
@@ -6173,19 +6456,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR099")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0123")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR016")
+					(reference "#PWR096")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0111")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -6200,7 +6483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e19e6ba9-2061-4107-883c-ad3ad6751aeb")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR098"
 			(at 158.75 66.04 0)
 			(effects
 				(font
@@ -6250,19 +6533,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "#PWR0101")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0125")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR015")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0113")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -6278,7 +6561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7e4ad05-696e-4553-b9b8-dd3aefc63a5b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR091"
 			(at 107.95 27.94 0)
 			(effects
 				(font
@@ -6328,123 +6611,19 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
 					(reference "#PWR091")
 					(unit 1)
 				)
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "#PWR028")
-					(unit 1)
-				)
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB3_A")
-		(at 214.63 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff6006d6-10cc-48b8-aa36-1622c148a0c5")
-		(property "Reference" "J6"
-			(at 214.63 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB3_A"
-			(at 214.63 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 3.0 A connector"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30aa4072-94fa-4618-a88f-0b9767ecbf92")
-		)
-		(pin "9"
-			(uuid "c6c0d72d-27d6-409e-9205-20f89a682157")
-		)
-		(pin "3"
-			(uuid "59335267-b502-4395-9ffd-965693774cd8")
-		)
-		(pin "5"
-			(uuid "8389a366-1302-468e-9f6f-79946846847d")
-		)
-		(pin "10"
-			(uuid "139e10d4-d984-4993-8be4-d1fd035990d5")
-		)
-		(pin "4"
-			(uuid "36a69177-00d6-438e-a164-c5ec5f299f4b")
-		)
-		(pin "6"
-			(uuid "68601726-9ddf-4d6a-9249-5d1a43343383")
-		)
-		(pin "8"
-			(uuid "9342a2a9-b9c0-4d92-a173-5b299952bdf2")
-		)
-		(pin "7"
-			(uuid "fb5a9660-7e2b-4559-a07c-b30655ce6046")
-		)
-		(pin "1"
-			(uuid "9f879999-993d-443f-a055-26fe19c7c9b3")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/54debad2-dec1-4276-a9a1-37e2da5405e0"
-					(reference "J5")
-					(unit 1)
-				)
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/5e5ce42f-deea-479a-a877-e9de670a3e82"
-					(reference "J8")
-					(unit 1)
-				)
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/6197ed9e-2991-4346-907f-e62c59de54b3"
-					(reference "J6")
-					(unit 1)
-				)
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/8e73072d-d556-4825-b8b8-550f6bfd1414"
-					(reference "J7")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
