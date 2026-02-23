@@ -2943,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 120.65) (xy 184.15 120.65)
+			(xy 184.15 120.65) (xy 234.95 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2970,16 +2970,6 @@
 			(type default)
 		)
 		(uuid "05983aae-efd8-43bd-b6e2-723aa69c9f41")
-	)
-	(wire
-		(pts
-			(xy 234.95 77.47) (xy 228.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e1a947-6995-4f71-b9ad-5604620260ff")
 	)
 	(wire
 		(pts
@@ -3013,23 +3003,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 52.07) (xy 184.15 52.07)
+			(xy 184.15 52.07) (xy 234.95 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a2c151c-bb5f-4681-b70e-0a8b9a2a1535")
-	)
-	(wire
-		(pts
-			(xy 234.95 57.15) (xy 219.71 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a970299-4d51-476c-94be-877c129c52d7")
 	)
 	(wire
 		(pts
@@ -3090,16 +3070,6 @@
 			(type default)
 		)
 		(uuid "13345a18-7a6a-4713-8915-004fa48cb64c")
-	)
-	(wire
-		(pts
-			(xy 234.95 74.93) (xy 219.71 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141170ff-cb91-4f0d-88f7-269cefae7d2f")
 	)
 	(wire
 		(pts
@@ -3213,16 +3183,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 49.53) (xy 228.6 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d8f079-398a-48fa-a8f3-05bf955452ca")
-	)
-	(wire
-		(pts
 			(xy 67.31 90.17) (xy 118.11 90.17)
 		)
 		(stroke
@@ -3273,7 +3233,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 97.79) (xy 184.15 97.79)
+			(xy 184.15 97.79) (xy 234.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3360,16 +3320,6 @@
 			(type default)
 		)
 		(uuid "37367678-3ccd-43b8-afa1-9974df777900")
-	)
-	(wire
-		(pts
-			(xy 234.95 52.07) (xy 219.71 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3791792a-d405-49ab-ad78-bfec0e0be4f8")
 	)
 	(wire
 		(pts
@@ -3473,7 +3423,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 57.15) (xy 184.15 57.15)
+			(xy 184.15 57.15) (xy 234.95 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3503,17 +3453,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 123.19) (xy 228.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4280f204-8e1d-452a-b405-40af844cb837")
-	)
-	(wire
-		(pts
-			(xy 223.52 118.11) (xy 184.15 118.11)
+			(xy 184.15 118.11) (xy 234.95 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3603,7 +3543,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 123.19) (xy 184.15 123.19)
+			(xy 184.15 123.19) (xy 234.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3630,16 +3570,6 @@
 			(type default)
 		)
 		(uuid "4f3b22af-5178-4dfa-a038-64dc1d4ae4f1")
-	)
-	(wire
-		(pts
-			(xy 234.95 100.33) (xy 228.6 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527898a4-b517-4e47-b465-469644bec014")
 	)
 	(wire
 		(pts
@@ -3723,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 184.15 125.73)
+			(xy 184.15 125.73) (xy 234.95 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3753,26 +3683,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 54.61) (xy 228.6 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623c580e-6cd3-4ef7-904a-05edc07b4c09")
-	)
-	(wire
-		(pts
-			(xy 234.95 125.73) (xy 219.71 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "625c0c86-b1d5-4b2a-8e6b-57b097695314")
-	)
-	(wire
-		(pts
 			(xy 120.65 179.07) (xy 129.54 179.07)
 		)
 		(stroke
@@ -3783,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 80.01) (xy 184.15 80.01)
+			(xy 184.15 80.01) (xy 234.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3903,16 +3813,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 120.65) (xy 219.71 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "710e56b4-a8da-4a56-afd7-35779f709d28")
-	)
-	(wire
-		(pts
 			(xy 44.45 49.53) (xy 44.45 52.07)
 		)
 		(stroke
@@ -3920,16 +3820,6 @@
 			(type default)
 		)
 		(uuid "72636551-e990-4e87-a36a-538d767e3b8f")
-	)
-	(wire
-		(pts
-			(xy 234.95 72.39) (xy 228.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fcbe42-82e4-4ba3-9428-21c92fc6dce2")
 	)
 	(wire
 		(pts
@@ -4003,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 54.61) (xy 184.15 54.61)
+			(xy 184.15 54.61) (xy 234.95 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 49.53) (xy 184.15 49.53)
+			(xy 184.15 49.53) (xy 234.95 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4213,16 +4103,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 95.25) (xy 228.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92271da3-65f3-4c37-8df4-954e800e9694")
-	)
-	(wire
-		(pts
 			(xy 158.75 41.91) (xy 158.75 40.64)
 		)
 		(stroke
@@ -4253,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 95.25) (xy 184.15 95.25)
+			(xy 184.15 95.25) (xy 234.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4290,16 +4170,6 @@
 			(type default)
 		)
 		(uuid "9a2eb5c8-1c6f-4f59-b2a4-a3b244704746")
-	)
-	(wire
-		(pts
-			(xy 234.95 102.87) (xy 219.71 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b0867ed-58f9-4076-965a-a4d484678800")
 	)
 	(wire
 		(pts
@@ -4350,16 +4220,6 @@
 			(type default)
 		)
 		(uuid "a071bee3-d955-4801-84aa-29a40a522a95")
-	)
-	(wire
-		(pts
-			(xy 234.95 118.11) (xy 228.6 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17a8e77-cf11-4b4b-ab34-6c97bad0585f")
 	)
 	(wire
 		(pts
@@ -4463,7 +4323,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 77.47) (xy 184.15 77.47)
+			(xy 184.15 77.47) (xy 234.95 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4523,7 +4383,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 74.93) (xy 184.15 74.93)
+			(xy 184.15 74.93) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4563,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 100.33) (xy 184.15 100.33)
+			(xy 184.15 100.33) (xy 234.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4580,16 +4440,6 @@
 			(type default)
 		)
 		(uuid "b730aca2-720e-4323-a3a7-199ca737d4f5")
-	)
-	(wire
-		(pts
-			(xy 234.95 80.01) (xy 219.71 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb00e6c-df7b-4b14-bafd-fdb1d6f706ee")
 	)
 	(wire
 		(pts
@@ -4680,16 +4530,6 @@
 			(type default)
 		)
 		(uuid "c826a9c7-f152-40eb-b766-f5fe8b857ddb")
-	)
-	(wire
-		(pts
-			(xy 234.95 97.79) (xy 219.71 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8951aeb-9dcf-48e2-9bab-9815a297431d")
 	)
 	(wire
 		(pts
@@ -5013,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 184.15 102.87)
+			(xy 184.15 102.87) (xy 234.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5113,7 +4953,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 72.39) (xy 184.15 72.39)
+			(xy 184.15 72.39) (xy 234.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5450,16 +5290,6 @@
 			)
 		)
 	)
-	(label "USB_DS2_SSTX_N"
-		(at 186.69 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06cbd5a3-ce0a-4a77-b2d3-fe1c1009b6c5")
-	)
 	(label "SMB_SDA"
 		(at 106.68 100.33 0)
 		(effects
@@ -5470,16 +5300,6 @@
 		)
 		(uuid "08b50f24-14fa-4757-8f02-cf609f11f58a")
 	)
-	(label "USB_DS3_SSRX_N"
-		(at 186.69 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bdce922-c91a-4521-852b-94c9d766d7d6")
-	)
 	(label "XTAL_IN"
 		(at 17.78 49.53 0)
 		(effects
@@ -5489,16 +5309,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e242de7-b26d-4c91-aafa-940c8f58f029")
-	)
-	(label "USB_DS1_SSRX_P"
-		(at 186.69 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "120b5ad6-8452-4c54-acaf-ab86c7d318cc")
 	)
 	(label "USB_UPSW_SSRX_N"
 		(at 115.57 85.09 180)
@@ -5540,26 +5350,6 @@
 		)
 		(uuid "2cfb709a-68f3-41c5-99c1-8121adcd5e32")
 	)
-	(label "USB_DS4_SSTX_N"
-		(at 186.69 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55e7dde5-8485-4e06-97db-207155d8bdc5")
-	)
-	(label "USB_DS3_SSRX_P"
-		(at 186.69 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55fbd894-d7cb-40b0-8b2e-8baa4458e2e6")
-	)
 	(label "XTAL_OUT"
 		(at 54.61 49.53 180)
 		(effects
@@ -5580,16 +5370,6 @@
 		)
 		(uuid "5ed05387-95d6-4a6d-bde1-38e3bd367e70")
 	)
-	(label "USB_DS4_SSRX_N"
-		(at 186.69 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6312962d-fef0-4434-b1ba-29328701f491")
-	)
 	(label "GANGED"
 		(at 87.63 177.8 180)
 		(effects
@@ -5599,46 +5379,6 @@
 			(justify right bottom)
 		)
 		(uuid "63fe3b82-4fc9-4f8e-9e89-c5cd1ea595aa")
-	)
-	(label "USB_DS2_SSRX_N"
-		(at 186.69 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d14ceb2-89f8-4cd6-b461-db2e8910b3d3")
-	)
-	(label "USB_DS2_SSTX_P"
-		(at 186.69 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b4263ba-a2bb-4d8a-a183-134b1b6d7445")
-	)
-	(label "USB_DS3_SSTX_N"
-		(at 186.69 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85ae2c03-6e87-42c3-a659-26257dd0a87d")
-	)
-	(label "USB_DS3_SSTX_P"
-		(at 186.69 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d98acf7-474b-4fcb-b92a-b300a8aeabbe")
 	)
 	(label "SMB_SCL"
 		(at 162.56 176.53 180)
@@ -5690,16 +5430,6 @@
 		)
 		(uuid "aed757f2-90e4-4333-b74c-1f1b492a8f41")
 	)
-	(label "USB_DS4_SSRX_P"
-		(at 186.69 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0dc6f5c-4c9e-4a49-be2d-2258228de9a2")
-	)
 	(label "SMB_SDA"
 		(at 162.56 173.99 180)
 		(effects
@@ -5750,26 +5480,6 @@
 		)
 		(uuid "cf560786-7f95-4f06-8384-251cb06ed511")
 	)
-	(label "USB_DS1_SSTX_N"
-		(at 186.69 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9fc05b0-9d0f-4884-904f-baa3f2f57a54")
-	)
-	(label "USB_DS2_SSRX_P"
-		(at 186.69 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2b05f19-6bc6-4798-b4fc-8c1e8194fcb2")
-	)
 	(label "XTAL_OUT"
 		(at 104.14 72.39 0)
 		(effects
@@ -5779,16 +5489,6 @@
 			(justify left bottom)
 		)
 		(uuid "e59cb3d3-862f-4428-ba1e-3a53d01f315e")
-	)
-	(label "USB_DS1_SSRX_N"
-		(at 186.69 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8a39184-a1fa-4e5f-a0aa-06ea40c518fc")
 	)
 	(label "FULLPWRMGMTz"
 		(at 95.25 107.95 0)
@@ -5809,26 +5509,6 @@
 			(justify right bottom)
 		)
 		(uuid "f6187e0a-25ba-4d0b-a3a3-a4a79cb5efc9")
-	)
-	(label "USB_DS4_SSTX_P"
-		(at 186.69 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f643a763-8a23-4e0e-a11a-5cbc815396b6")
-	)
-	(label "USB_DS1_SSTX_P"
-		(at 186.69 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6ea6394-33cf-49f1-b024-bbed4ebd884e")
 	)
 	(label "PWRCTL_POL"
 		(at 95.25 110.49 0)
@@ -6369,142 +6049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "037213f4-9cff-4a63-8906-d94c90f7ba73")
-		(property "Reference" "C21"
-			(at 219.71 55.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35fdd10b-2585-4fbc-a0df-70c86f628610")
-		)
-		(pin "1"
-			(uuid "6dc98672-a0e3-44e3-930c-6a5adbbfaaed")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 74.93 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04576c29-85ac-4e3b-9095-dfb86309111b")
-		(property "Reference" "C22"
-			(at 219.71 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0dd2bf29-70e9-444c-a831-1a8c5e05b9b3")
-		)
-		(pin "1"
-			(uuid "cea3b3ab-8a01-4111-bc8b-7e9b9134f47a")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 44.45 55.88 180)
 		(unit 1)
@@ -6568,74 +6112,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 80.01 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b1310cc-44ac-4fa2-bd72-3bf583de8662")
-		(property "Reference" "C23"
-			(at 219.71 78.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a98858b9-e04a-48e8-b659-e6b804edd2ed")
-		)
-		(pin "1"
-			(uuid "fb135415-6ae5-48dc-81f7-ff76b661db0b")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8144,74 +7620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 102.87 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "314022f8-7650-4300-9423-189a29a4b27e")
-		(property "Reference" "C25"
-			(at 219.71 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a17bb578-f3cf-45ba-8914-8b0e0879fc3b")
-		)
-		(pin "1"
-			(uuid "2ee59fb5-aba5-435d-939d-3cdc78c979da")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 252.73 27.94 0)
 		(unit 1)
@@ -8276,74 +7684,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 120.65 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33cdb112-6f3e-42d9-9fbb-b3d933911c08")
-		(property "Reference" "C26"
-			(at 219.71 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b2f2938-c191-47a0-a9b4-c1f328fb7934")
-		)
-		(pin "1"
-			(uuid "b6ff0474-f328-4039-ac0a-56e940bce21d")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -8474,74 +7814,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 77.47 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34955e4f-434f-47f0-8862-6d2e35177759")
-		(property "Reference" "C31"
-			(at 228.6 75.946 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5203e090-2ae7-4626-81ba-a54de78ca081")
-		)
-		(pin "1"
-			(uuid "06cb8149-0189-4f40-9779-96e9efc23f25")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -10624,74 +9896,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 52.07 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97094fe4-286e-4b57-9beb-7b1defc2a5ed")
-		(property "Reference" "C20"
-			(at 219.71 50.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fbca4c42-6449-42e3-8305-9722d6a24ec8")
-		)
-		(pin "1"
-			(uuid "3fd3f08f-e31f-4ff7-bb06-e4eb432ab528")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 170.18 27.94 180)
 		(unit 1)
@@ -10821,74 +10025,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 125.73 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d2a84aa-2488-4b43-bdd4-996b0aa30c73")
-		(property "Reference" "C27"
-			(at 219.71 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3c438cc-c9ec-456c-b62a-e097fa06d4a1")
-		)
-		(pin "1"
-			(uuid "cd16dfa4-7096-4e09-97b2-82d7e00e2898")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11158,74 +10294,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 118.11 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a47b1d71-c7ad-48cc-ac5b-b8a9372ff980")
-		(property "Reference" "C34"
-			(at 228.6 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1b23360-1497-402a-978a-190312eef75b")
-		)
-		(pin "1"
-			(uuid "a310dd25-5646-4caa-85c5-a8ac4828458a")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -11771,74 +10839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 72.39 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2e22ee4-1057-4549-a056-caf1a9a50671")
-		(property "Reference" "C30"
-			(at 228.6 70.866 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b53f2b48-c9a2-47e9-ad47-ec695976e803")
-		)
-		(pin "1"
-			(uuid "4bc9ade8-146e-4c8b-9466-99b6b714b2d7")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 35.56 49.53 0)
 		(unit 1)
@@ -11864,7 +10864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 35.56 49.53 0)
 			(effects
 				(font
@@ -11997,74 +10997,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 54.61 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8fcfc33-c1c5-4579-a8bd-95af6e22bc1b")
-		(property "Reference" "C29"
-			(at 228.6 53.086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "650b947e-9627-4fe1-b337-11a8c59e7e5d")
-		)
-		(pin "1"
-			(uuid "a1c8d472-07ae-44eb-add1-0f2563d11a6f")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -12206,74 +11138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 97.79 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c76de33f-b79a-43d9-bde9-c74828abb991")
-		(property "Reference" "C24"
-			(at 219.71 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.614 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 217.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "daec24dd-2603-4293-ab3d-f253fb1b2418")
-		)
-		(pin "1"
-			(uuid "687284c5-9268-4acb-a3d2-050ce24bbf99")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 181.61 33.02 0)
 		(mirror y)
@@ -12334,74 +11198,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 49.53 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd4fce98-94f7-486f-9f37-efcd2cdbc0ad")
-		(property "Reference" "C28"
-			(at 228.6 48.006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "afa8a849-187b-4427-a7b3-3e7a41aa45ed")
-		)
-		(pin "1"
-			(uuid "b3b6f3e1-982b-4ec7-bd00-dab0c8689ab4")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -12543,74 +11339,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 95.25 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d278c84a-72dd-44f1-bf9e-b1c5ab7e6fa9")
-		(property "Reference" "C32"
-			(at 228.6 93.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ffbb560-e64b-490b-8605-7eb9b0c0d7d4")
-		)
-		(pin "1"
-			(uuid "0de7937f-7c13-436b-ab5c-f9ae3fe3d0c2")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 33.02 0)
 		(mirror y)
@@ -12671,74 +11399,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6a9c8db-5440-4016-8932-4ceb268e75d8")
-		(property "Reference" "C35"
-			(at 228.6 121.666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5fcbe9ea-2a81-45a7-a823-161e5c9c22de")
-		)
-		(pin "1"
-			(uuid "d7fb5a75-4538-4a8d-a142-5c3520cab369")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -14008,74 +12668,6 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 100.33 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef28f5bd-4d23-41f9-8891-94d366a0a196")
-		(property "Reference" "C33"
-			(at 228.6 98.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 222.504 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Capacitor:Cap_0402"
-			(at 226.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e51df01-9703-4359-9c38-5263f4e9685d")
-		)
-		(pin "1"
-			(uuid "3dc5a42f-1c80-4a93-8019-b318190eb620")
-		)
-		(instances
-			(project "USB_3_SWITCHER"
-				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/17a678b8-2805-4685-8ec6-df00bd310e8b"
-					(reference "C33")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-27275637287406407
+27277412435614846
 00_Battery
 Li_Ion_Akku_18650_Blaster
 
@@ -16,6 +16,13 @@ capacitor
 00_Capacitor
 Cap_0603
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+00_Capacitor
+Cap_0805
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor
 0
 2
@@ -119,14 +126,14 @@ SAMTEC_TSM-110-01-L-DV-TR
 20
 20
 00_Connector
-Wuerth_USB3B_692221030100
+Wuerth_USB3A_receptible_692122030100
 
 
 0
 11
 11
 00_Connector
-Wuerth_USB3_receptible_692122030100
+Wuerth_USB3B_692221030100
 
 
 0
