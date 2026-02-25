@@ -3981,7 +3981,7 @@
 		)
 		(uuid "2b88444b-f856-4f8a-b884-ab115d9cd347")
 	)
-	(label "USB_UP_SSTX_P"
+	(label "USB_UP_SSTX_N"
 		(at 163.83 163.83 180)
 		(effects
 			(font
@@ -4051,7 +4051,7 @@
 		)
 		(uuid "57a7a8d7-4cce-400e-acc5-36617236b428")
 	)
-	(label "USB_UP_SSTX_P"
+	(label "USB_UP_SSTX_N"
 		(at 104.14 163.83 0)
 		(effects
 			(font
@@ -4141,7 +4141,7 @@
 		)
 		(uuid "a7ac0f8f-86a4-4b82-9553-bf1be4606a1e")
 	)
-	(label "USB_UP_SSTX_N"
+	(label "USB_UP_SSTX_P"
 		(at 104.14 158.75 0)
 		(effects
 			(font
@@ -4151,7 +4151,7 @@
 		)
 		(uuid "ec739617-0e3a-4dbd-8fe4-0f2b3c6e70d8")
 	)
-	(label "USB_UP_SSTX_N"
+	(label "USB_UP_SSTX_P"
 		(at 163.83 158.75 180)
 		(effects
 			(font

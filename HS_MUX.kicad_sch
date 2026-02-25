@@ -2740,7 +2740,7 @@
 		)
 		(uuid "0a2deafb-04eb-433f-88d9-b27f4732ba4b")
 	)
-	(hierarchical_label "USB_UP2_SSTX_C_N"
+	(hierarchical_label "USB_UP2_SSTX_C_P"
 		(shape output)
 		(at 69.85 76.2 180)
 		(effects
@@ -2828,7 +2828,7 @@
 		)
 		(uuid "6716fd86-f780-4ee3-bf35-2114de1d0df9")
 	)
-	(hierarchical_label "USB_UP2_SSTX_C_P"
+	(hierarchical_label "USB_UP2_SSTX_C_N"
 		(shape output)
 		(at 69.85 78.74 180)
 		(effects
