@@ -2134,6 +2134,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 25.4) (xy 149.86 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c404903d-3e4d-48eb-9830-6c859936ca27")
+	)
+	(wire
+		(pts
 			(xy 137.16 25.4) (xy 137.16 26.67)
 		)
 		(stroke
@@ -2281,6 +2291,16 @@
 			(type default)
 		)
 		(uuid "f484c961-8eb5-42d4-ab83-29b5613a4186")
+	)
+	(wire
+		(pts
+			(xy 149.86 35.56) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd91c29-140b-4ad6-911e-ced849a38d00")
 	)
 	(wire
 		(pts
@@ -3322,7 +3342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm"
 			(at 110.49 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -3389,6 +3409,83 @@
 			(project ""
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/51eaf119-28f7-4fb3-b499-06b3f53ecd18"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 149.86 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35eb146c-3209-4535-b1b4-794db021eb01")
+		(property "Reference" "#PWR0183"
+			(at 149.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 149.86 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 149.86 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9d0e500-3298-4bd2-842f-fd00aadfd670")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/51eaf119-28f7-4fb3-b499-06b3f53ecd18"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -3626,6 +3723,84 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/51eaf119-28f7-4fb3-b499-06b3f53ecd18"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 35.56 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "815bb588-9356-4935-ab76-73b8bcaf6386")
+		(property "Reference" "#PWR0184"
+			(at 149.86 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d443dfd-b848-47b3-b60e-ffd98870e216")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/51eaf119-28f7-4fb3-b499-06b3f53ecd18"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -3940,6 +4115,87 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/51eaf119-28f7-4fb3-b499-06b3f53ecd18"
 					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "938ee42d-df54-4aca-a49b-f7e6f0085f6e")
+		(property "Reference" "C108"
+			(at 153.67 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 153.67 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "00_Capacitor:Cap_0402"
+			(at 148.8948 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c9f62249-dff0-4b81-a77d-136df814ba9d")
+		)
+		(pin "1"
+			(uuid "54d1dcbc-b6c4-4def-b171-56c1cf91bce4")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/51eaf119-28f7-4fb3-b499-06b3f53ecd18"
+					(reference "C108")
 					(unit 1)
 				)
 			)
