@@ -3260,7 +3260,7 @@
 		(uuid "6a461ee1-07f5-46a9-995b-0f9412403e44")
 	)
 	(rectangle
-		(start 49.53 46.99)
+		(start 38.1 46.99)
 		(end 142.24 146.05)
 		(stroke
 			(width 0.254)
@@ -3428,6 +3428,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86a9de4f-00dc-41be-b239-ecd03397c660")
+	)
+	(junction
+		(at 57.15 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dc963b6-8d8b-485d-b9da-99ec744a42de")
 	)
 	(junction
 		(at 273.05 116.84)
@@ -3773,13 +3779,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 93.98) (xy 66.04 93.98)
+			(xy 57.15 90.17) (xy 57.15 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b430599-29d0-47ff-b399-174f7a92d651")
+		(uuid "2a49df04-4f28-4291-867c-6eb9cd977df4")
 	)
 	(wire
 		(pts
@@ -4120,6 +4126,16 @@
 			(type default)
 		)
 		(uuid "5a41f557-3c4c-4530-ad8d-112b5c5e2371")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4edb41-b804-4203-96e2-70b912ad9d9a")
 	)
 	(wire
 		(pts
@@ -4503,6 +4519,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 81.28) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dc3d8f-f584-4d44-8a34-9507a4fb2eb1")
+	)
+	(wire
+		(pts
 			(xy 238.76 72.39) (xy 238.76 73.66)
 		)
 		(stroke
@@ -4513,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 73.66 101.6)
+			(xy 73.66 99.06) (xy 73.66 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4540,6 +4566,16 @@
 			(type default)
 		)
 		(uuid "9b67c82e-3fdd-4f68-93f3-18d0972fd49e")
+	)
+	(wire
+		(pts
+			(xy 39.37 104.14) (xy 49.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbd7966-b65a-4429-ac09-e00965bf378d")
 	)
 	(wire
 		(pts
@@ -4660,6 +4696,16 @@
 			(type default)
 		)
 		(uuid "ac6c7cbb-9828-4dda-b6fe-0de7d33b5a53")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad669757-2e32-4a39-a497-d68872e6301c")
 	)
 	(wire
 		(pts
@@ -5223,6 +5269,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 110.49) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7106b0-fe42-4fc9-9056-31d26ca198de")
+	)
+	(wire
+		(pts
 			(xy 16.51 157.48) (xy 16.51 158.75)
 		)
 		(stroke
@@ -5362,7 +5418,7 @@
 		(uuid "94db7887-4dcf-4dd7-bc59-8bc8ef35712f")
 	)
 	(label "VIN_PGOOD"
-		(at 53.34 93.98 0)
+		(at 39.37 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5787,7 +5843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 95.25 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,6 +6213,83 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/c5621e67-4cd5-4b05-bb18-b37bc67d082e"
 					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 57.15 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "152ecae6-cf96-4c85-8231-ddd8b8bde9f8")
+		(property "Reference" "#PWR0220"
+			(at 57.15 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 57.15 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 57.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27ae80ff-94c3-4c9c-9fad-e306a882de69")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/c5621e67-4cd5-4b05-bb18-b37bc67d082e"
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -9339,6 +9472,103 @@
 		)
 	)
 	(symbol
+		(lib_id "ANR_Blastec_Lib:NTJD4401NT1G")
+		(at 58.42 123.19 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b06f23b-84a3-4225-9430-c40f88888a22")
+		(property "Reference" "Q3"
+			(at 64.77 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTJD4401NT1G"
+			(at 64.77 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 63.5 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntjd4401n-d.pdf"
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "910mA Id, 20V Vds, Dual N-Channel MOSFET, 375mOhm Ron, SOT-363"
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d9302448-0daa-40b8-9a60-a47027d87f1c")
+		)
+		(pin "4"
+			(uuid "5713aa43-0504-48be-830b-837488544778")
+		)
+		(pin "3"
+			(uuid "a555bdb1-5bfe-4676-8bef-0db4deded552")
+		)
+		(pin "1"
+			(uuid "bfdb3587-dc9c-4cf5-853e-da3eb1bf2d9d")
+		)
+		(pin "2"
+			(uuid "eb4543ab-b32b-45f0-90e9-db276b7fd990")
+		)
+		(pin "5"
+			(uuid "1960e3e3-e644-4c9f-89e4-9117bbc47598")
+		)
+		(instances
+			(project ""
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/c5621e67-4cd5-4b05-bb18-b37bc67d082e"
+					(reference "Q3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 49.53 31.75 0)
 		(unit 1)
@@ -11344,6 +11574,102 @@
 		)
 	)
 	(symbol
+		(lib_id "ANR_Blastec_Lib:NTJD4401NT1G")
+		(at 54.61 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bccdb15-1a3e-4ad1-8d4d-59ea37e20c0c")
+		(property "Reference" "Q3"
+			(at 58.674 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTJD4401NT1G"
+			(at 58.674 100.584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 59.69 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntjd4401n-d.pdf"
+			(at 59.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "910mA Id, 20V Vds, Dual N-Channel MOSFET, 375mOhm Ron, SOT-363"
+			(at 54.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d9302448-0daa-40b8-9a60-a47027d87f1c")
+		)
+		(pin "4"
+			(uuid "5713aa43-0504-48be-830b-837488544778")
+		)
+		(pin "3"
+			(uuid "a555bdb1-5bfe-4676-8bef-0db4deded552")
+		)
+		(pin "1"
+			(uuid "bfdb3587-dc9c-4cf5-853e-da3eb1bf2d9d")
+		)
+		(pin "2"
+			(uuid "eb4543ab-b32b-45f0-90e9-db276b7fd990")
+		)
+		(pin "5"
+			(uuid "1960e3e3-e644-4c9f-89e4-9117bbc47598")
+		)
+		(instances
+			(project ""
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/c5621e67-4cd5-4b05-bb18-b37bc67d082e"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC1G08")
 		(at 142.24 175.26 0)
 		(unit 1)
@@ -11661,22 +11987,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "09073815-2e4d-4fb8-a71f-efd2bb79199d")
+			(uuid "09073815-2e4d-4fb8-a71f-efd2bb79199e")
 		)
 		(pin "2"
-			(uuid "ea90cc9c-711a-481b-9a91-2e9714877fba")
+			(uuid "ea90cc9c-711a-481b-9a91-2e9714877fbb")
 		)
 		(pin "6"
-			(uuid "27fa5c2a-6f9e-4f2f-9386-3ce2e43d2dff")
+			(uuid "27fa5c2a-6f9e-4f2f-9386-3ce2e43d2e00")
 		)
 		(pin "3"
-			(uuid "344e3bea-abdc-4f80-b51a-cba16a03539a")
+			(uuid "344e3bea-abdc-4f80-b51a-cba16a03539b")
 		)
 		(pin "4"
-			(uuid "1aff772a-1bb8-4c74-98df-c35d45d08163")
+			(uuid "1aff772a-1bb8-4c74-98df-c35d45d08164")
 		)
 		(pin "5"
-			(uuid "5284534a-7998-427c-a669-c4a14fdfe5f0")
+			(uuid "5284534a-7998-427c-a669-c4a14fdfe5f1")
 		)
 		(instances
 			(project ""
@@ -13998,13 +14324,13 @@
 			(uuid "b129064b-e9c5-4625-a229-21d55104bed1")
 		)
 		(pin "3"
-			(uuid "344e3bea-abdc-4f80-b51a-cba16a03539b")
+			(uuid "344e3bea-abdc-4f80-b51a-cba16a03539c")
 		)
 		(pin "4"
-			(uuid "1aff772a-1bb8-4c74-98df-c35d45d08164")
+			(uuid "1aff772a-1bb8-4c74-98df-c35d45d08165")
 		)
 		(pin "5"
-			(uuid "5284534a-7998-427c-a669-c4a14fdfe5f1")
+			(uuid "5284534a-7998-427c-a669-c4a14fdfe5f2")
 		)
 		(instances
 			(project "USB_3_SWITCHER"
@@ -14738,7 +15064,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 101.6 0)
+		(at 73.66 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14748,7 +15074,7 @@
 		(dnp no)
 		(uuid "e4adcd9b-3b41-4da7-ae43-b7c0fc218cd6")
 		(property "Reference" "#PWR060"
-			(at 73.66 107.95 0)
+			(at 73.66 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14759,7 +15085,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 105.664 0)
+			(at 73.66 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14769,7 +15095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 101.6 0)
+			(at 73.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14780,7 +15106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 101.6 0)
+			(at 73.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14791,7 +15117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 101.6 0)
+			(at 73.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14962,6 +15288,83 @@
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/c5621e67-4cd5-4b05-bb18-b37bc67d082e"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e575ee77-505c-414c-8bff-85420a793efc")
+		(property "Reference" "#PWR0219"
+			(at 57.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68f4a5d1-09af-44ff-85d7-245d66d4785d")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/c5621e67-4cd5-4b05-bb18-b37bc67d082e"
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -15529,6 +15932,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 57.15 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef5e545e-c7af-4d15-acb8-67d59bc38b7a")
+		(property "Reference" "R71"
+			(at 59.69 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 59.69 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_Resistor:Res_0402"
+			(at 55.372 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5342a1e6-a881-4a38-b437-3e5693ae8c15")
+		)
+		(pin "2"
+			(uuid "2f8d826e-1853-4d95-b0ad-60f4e46b0e6d")
+		)
+		(instances
+			(project "USB_3_SWITCHER"
+				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83/c5621e67-4cd5-4b05-bb18-b37bc67d082e"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 133.35 22.86 0)
 		(unit 1)
@@ -15911,13 +16395,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "09073815-2e4d-4fb8-a71f-efd2bb79199d")
+			(uuid "09073815-2e4d-4fb8-a71f-efd2bb79199f")
 		)
 		(pin "2"
-			(uuid "ea90cc9c-711a-481b-9a91-2e9714877fba")
+			(uuid "ea90cc9c-711a-481b-9a91-2e9714877fbc")
 		)
 		(pin "6"
-			(uuid "27fa5c2a-6f9e-4f2f-9386-3ce2e43d2dff")
+			(uuid "27fa5c2a-6f9e-4f2f-9386-3ce2e43d2e01")
 		)
 		(pin "3"
 			(uuid "a5518426-d7da-4fd7-92c3-ae9eb02f312a")
