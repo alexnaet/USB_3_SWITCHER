@@ -442,6 +442,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 114.3) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a117a58e-d4e3-46c2-bfe0-56f545ded587")
+	)
+	(wire
+		(pts
 			(xy 267.97 116.84) (xy 290.83 116.84)
 		)
 		(stroke
@@ -1879,8 +1889,8 @@
 		)
 	)
 	(sheet
-		(at 130.81 68.58)
-		(size 48.26 53.34)
+		(at 130.81 101.6)
+		(size 48.26 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1895,7 +1905,7 @@
 		)
 		(uuid "c5621e67-4cd5-4b05-bb18-b37bc67d082e")
 		(property "Sheetname" "POWER_SUPPLY"
-			(at 130.81 67.8684 0)
+			(at 130.81 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1914,6 +1924,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "~{RESET}" output
+			(at 179.07 114.3 0)
+			(uuid "45683633-2b5f-4e06-a9a7-b7cb6a8fd20c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1960,6 +1980,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DIRECTION" output
+			(at 207.01 82.55 180)
+			(uuid "b99a877c-f0f0-40c6-8752-de5c52e66fa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 207.01 86.36 180)
+			(uuid "5d3431c9-c76c-4d73-bb65-52e7e97925d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
