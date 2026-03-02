@@ -6473,10 +6473,10 @@
 			(uuid "a731bf5b-a056-4127-a68f-fef7b2fc6bc0")
 		)
 		(pin "4"
-			(uuid "5713aa43-0504-48be-830b-837488544779")
+			(uuid "5713aa43-0504-48be-830b-83748854477a")
 		)
 		(pin "3"
-			(uuid "a555bdb1-5bfe-4676-8bef-0db4deded553")
+			(uuid "a555bdb1-5bfe-4676-8bef-0db4deded554")
 		)
 		(pin "1"
 			(uuid "4f5fff12-e7ab-4119-a04a-9b68dec67455")
@@ -6485,7 +6485,7 @@
 			(uuid "149bb418-ec1b-4744-9eb0-085e5d31684a")
 		)
 		(pin "5"
-			(uuid "1960e3e3-e644-4c9f-89e4-9117bbc47599")
+			(uuid "1960e3e3-e644-4c9f-89e4-9117bbc4759a")
 		)
 		(instances
 			(project "USB_3_SWITCHER"
@@ -9421,7 +9421,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "d9302448-0daa-40b8-9a60-a47027d87f1c")
+			(uuid "d9302448-0daa-40b8-9a60-a47027d87f1d")
 		)
 		(pin "4"
 			(uuid "0f898497-5e1b-4df2-a243-415e5e481d5f")
@@ -9430,10 +9430,10 @@
 			(uuid "fb8b4eec-3273-4832-b214-bd69c409f1d7")
 		)
 		(pin "1"
-			(uuid "bfdb3587-dc9c-4cf5-853e-da3eb1bf2d9d")
+			(uuid "bfdb3587-dc9c-4cf5-853e-da3eb1bf2d9e")
 		)
 		(pin "2"
-			(uuid "eb4543ab-b32b-45f0-90e9-db276b7fd990")
+			(uuid "eb4543ab-b32b-45f0-90e9-db276b7fd991")
 		)
 		(pin "5"
 			(uuid "4d9bb049-d887-4d45-acb9-c5ed1eaff335")
