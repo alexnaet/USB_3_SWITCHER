@@ -4576,7 +4576,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2d440002-2aef-420e-8550-502e5c36f5c3")
 		(property "Reference" "R32"
 			(at 149.86 54.6099 0)

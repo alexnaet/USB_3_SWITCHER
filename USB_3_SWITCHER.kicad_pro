@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -801,7 +801,7 @@
         "uuid": "96aa4cdc-6548-43b6-b96a-6d1618c17d83"
       }
     ],
-    "used_designators": "#PWR244-245,#PWR295-314,D3,D8-14,R82-84,R93-101,Q6-9",
+    "used_designators": "D4,D6-7,D15,#PWR185-188,#PWR190-192,#PWR204-206,#PWR208-209,#PWR212-218,#PWR222-227,#PWR315-324,C111-115,C129-130,R60-62,R68-70,R73-74,R102-104,U20-23,U29-30",
     "variants": []
   },
   "sheets": [
@@ -852,6 +852,10 @@
     [
       "727687ad-08f4-4d44-9d98-36b0cbf3889d",
       "EXTENSION_HEADER_DEBUG"
+    ],
+    [
+      "8e46e074-a0fb-4772-b40f-c305c3d6a70f",
+      "POWER_SEQUENCING"
     ]
   ],
   "text_variables": {},
