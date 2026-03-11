@@ -801,7 +801,7 @@
         "uuid": "96aa4cdc-6548-43b6-b96a-6d1618c17d83"
       }
     ],
-    "used_designators": "D4,D6-7,D15,#PWR185-188,#PWR190-192,#PWR204-206,#PWR208-209,#PWR212-218,#PWR222-227,#PWR315-324,C111-115,C129-130,R60-62,R68-70,R73-74,R102-104,U20-23,U29-30",
+    "used_designators": "R105,SW2,#PWR325-327,C131-132,U29",
     "variants": []
   },
   "sheets": [
@@ -820,6 +820,10 @@
     [
       "c5621e67-4cd5-4b05-bb18-b37bc67d082e",
       "POWER_SUPPLY"
+    ],
+    [
+      "8e46e074-a0fb-4772-b40f-c305c3d6a70f",
+      "POWER_SEQUENCING"
     ],
     [
       "c2937931-474a-4fd2-9f5c-ad5f88abb5b8",
@@ -852,10 +856,6 @@
     [
       "727687ad-08f4-4d44-9d98-36b0cbf3889d",
       "EXTENSION_HEADER_DEBUG"
-    ],
-    [
-      "8e46e074-a0fb-4772-b40f-c305c3d6a70f",
-      "POWER_SEQUENCING"
     ]
   ],
   "text_variables": {},

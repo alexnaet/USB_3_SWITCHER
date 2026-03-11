@@ -1735,7 +1735,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "9")
+					(page "10")
 				)
 			)
 		)
@@ -1861,7 +1861,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -1987,7 +1987,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
@@ -2093,7 +2093,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "12")
+					(page "13")
 				)
 			)
 		)
@@ -2219,7 +2219,7 @@
 		(instances
 			(project ""
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "13")
+					(page "5")
 				)
 			)
 		)
@@ -2345,7 +2345,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -2461,7 +2461,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -2623,7 +2623,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -2739,7 +2739,7 @@
 		(instances
 			(project "USB_3_SWITCHER"
 				(path "/96aa4cdc-6548-43b6-b96a-6d1618c17d83"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
