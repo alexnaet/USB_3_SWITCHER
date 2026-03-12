@@ -782,7 +782,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://ANR_Sheet_V1.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -801,7 +801,7 @@
         "uuid": "96aa4cdc-6548-43b6-b96a-6d1618c17d83"
       }
     ],
-    "used_designators": "R105,SW2,#PWR325-327,C131-132,U29",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
