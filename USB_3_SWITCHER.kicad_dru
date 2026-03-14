@@ -1,0 +1,5 @@
+(version 1)
+(rule Routing_width_1
+	(constraint track_width (min 0.09mm) (opt 0.1mm) (max 0.11mm))
+	(condition "A.hasNetclass('USB_DP') && A.hasNetclass('USB_SSRX') && A.hasNetclass('USB_SSTX')")
+)
