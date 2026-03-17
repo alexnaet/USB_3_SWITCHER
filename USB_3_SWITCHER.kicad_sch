@@ -534,16 +534,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 69.85) (xy 173.99 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c5310a-b578-4abe-b210-39813dcb0dae")
-	)
-	(wire
-		(pts
 			(xy 262.89 135.89) (xy 285.75 135.89)
 		)
 		(stroke
@@ -2149,16 +2139,6 @@
 		(pin "BUCK_1V1_PG" input
 			(at 173.99 62.23 0)
 			(uuid "b26ba619-8c6a-49b1-9aa2-f5aa39b57f8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIN_ST" input
-			(at 173.99 69.85 0)
-			(uuid "39a10bb5-6deb-4551-bb2a-7c95dc00f9f8")
 			(effects
 				(font
 					(size 1.27 1.27)

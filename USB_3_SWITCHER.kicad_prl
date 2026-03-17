@@ -25,8 +25,8 @@
       "otherItems": false,
       "pads": false,
       "text": true,
-      "tracks": false,
-      "vias": false,
+      "tracks": true,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -51,7 +51,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_80000521",
+    "visible_layers": "00000000_00000000_00000000_20000585",
     "zone_display_mode": 0
   },
   "git": {
