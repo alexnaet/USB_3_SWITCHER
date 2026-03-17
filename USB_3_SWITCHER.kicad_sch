@@ -94,16 +94,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 35.56) (xy 185.42 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1124f5ae-df8b-4ca2-ac98-4457b412976d")
-	)
-	(wire
-		(pts
 			(xy 262.89 116.84) (xy 285.75 116.84)
 		)
 		(stroke
@@ -701,16 +691,6 @@
 			(type default)
 		)
 		(uuid "a9208e68-3b10-427a-9deb-b9e2e6d73c29")
-	)
-	(wire
-		(pts
-			(xy 173.99 35.56) (xy 185.42 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad8b56d8-a8c2-4649-84d5-69f4ffe6d97b")
 	)
 	(wire
 		(pts
@@ -2507,16 +2487,6 @@
 		(pin "BUCK_3V3_PG" output
 			(at 173.99 39.37 0)
 			(uuid "42c3be2f-cdd6-4e5b-948e-c6486ab86e77")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIN_ST" output
-			(at 173.99 35.56 0)
-			(uuid "8ee9bf27-aa9d-4749-b132-652a2a1ae8a6")
 			(effects
 				(font
 					(size 1.27 1.27)
